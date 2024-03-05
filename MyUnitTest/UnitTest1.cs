@@ -14,4 +14,16 @@ public class UnitTest1
         Assert.AreEqual(expected, actual,"Equal?");
         
     }
+
+
+    [TestMethod]
+    public void TestMethod2()
+    {
+        Console.WriteLine("TestMethod2");   
+        
+        int actual = Calculate.Subtract(7,5);
+        int expected =4;
+        Assert.AreEqual(expected, actual,"Equal?");
+        
+    }
 }
